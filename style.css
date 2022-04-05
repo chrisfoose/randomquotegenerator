@@ -1,5 +1,5 @@
 #container {
-    width: 25%;
+    width: 50%;
     height: 25%;
     margin: auto;
     position:relative;
@@ -9,13 +9,14 @@
     opacity: 0.8;
     align-items: center;
     border: 1px solid white;
+    padding: 2rem;
 }
 
 #quote {
     
     font-family: 'Lora', serif;
     color: white;
-    font-size: 33px;
+    font-size: 20px;
     width: 50%;
     align-items: center;
     margin:auto;
@@ -24,10 +25,10 @@
 #author {
     
     font-family: 'Grape Nuts', cursive;
-    color: yellow;
+    color: rgb(255, 255, 255);
     width: auto;
     margin: auto;
-    font-size: 22px;
+    font-size: 20px;
     justify-content: center;
 
 }
@@ -37,7 +38,7 @@ body {
     background-image: url("clouds.jpg");
     background-size:cover;
     background-color: #ffccff;
-    background-repeat:no-repeat;
+    background-repeat:repeat-y; 
 
 .center {
     align-items: center;
