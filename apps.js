@@ -1,7 +1,7 @@
 console.log('Connected!');
 
-/* 
-fetch('https://type.fit/api/quotes')
+/*
+const qt = fetch('https://type.fit/api/quotes')
     .then(response => response.json())
     .then(json => json)
 */

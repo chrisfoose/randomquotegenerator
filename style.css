@@ -1,0 +1,30 @@
+.container {
+    width: 50%;
+}
+
+#quote {
+    background-color: #6699ff;
+    font-family: 'Lora', serif;
+    color: white;
+    font-size: 50px;
+    width: 50%;
+    align-tems: center;
+}
+
+#author {
+    background-color: #77c2cf;
+    font-family: 'Grape Nuts', cursive;
+    color: yellow;
+    width: 50%;
+    font-size: 25px;
+
+}
+
+
+body {
+    background-color: #ffccff;
+}
+
+.center {
+    align-items: center;
+}
