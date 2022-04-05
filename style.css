@@ -1,10 +1,10 @@
-.container {
+#container {
     width: auto;
     margin: auto;
 }
 
 #quote {
-    background-color: #6699ff;
+    
     font-family: 'Lora', serif;
     color: white;
     font-size: 50px;
@@ -13,7 +13,7 @@
 }
 
 #author {
-    background-color: #77c2cf;
+    
     font-family: 'Grape Nuts', cursive;
     color: yellow;
     width: auto;
@@ -25,6 +25,8 @@
 
 
 body {
+    background-image: url("clouds.jpg");
+    background-size:cover;
     background-color: #ffccff;
 }
 
