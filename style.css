@@ -16,8 +16,10 @@
     background-color: #77c2cf;
     font-family: 'Grape Nuts', cursive;
     color: yellow;
-    width: 50%;
-    font-size: 25px;
+    width: auto;
+    margin: auto;
+    font-size: 40px;
+    justify-content: center;
 
 }
 
