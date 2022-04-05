@@ -1,15 +1,24 @@
 #container {
-    width: auto;
+    width: 25%;
+    height: 25%;
     margin: auto;
+    position:relative;
+    background-color:lightblue;
+    border-radius: 11px;
+    transform: translateY(25vh);
+    opacity: 0.8;
+    align-items: center;
+    border: 1px solid white;
 }
 
 #quote {
     
     font-family: 'Lora', serif;
     color: white;
-    font-size: 50px;
+    font-size: 33px;
     width: 50%;
     align-items: center;
+    margin:auto;
 }
 
 #author {
@@ -18,7 +27,7 @@
     color: yellow;
     width: auto;
     margin: auto;
-    font-size: 40px;
+    font-size: 22px;
     justify-content: center;
 
 }
@@ -28,8 +37,15 @@ body {
     background-image: url("clouds.jpg");
     background-size:cover;
     background-color: #ffccff;
-}
+    background-repeat:no-repeat;
 
 .center {
     align-items: center;
+}
+
+#quoteButton {
+    margin:auto;
+    position: absolute; 
+    bottom: 100px;
+    right: 10%;
 }
