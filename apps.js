@@ -30,7 +30,7 @@ const newQuote = async (event) => {
     const response = await fetch(url);
     if (response.ok) {
         let jsonResponse = await response.json();
-        num = Math.floor(Math.random() * 1600);
+        num = Math.floor(Math.random() * jsonResponse.length);
 
         quote.innerHTML = jsonResponse[num].text;
         author.innerHTML = jsonResponse[num].author;
